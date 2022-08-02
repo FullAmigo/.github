@@ -1,2 +1,2 @@
 # .github
-_Community health files for the @FullAmigo organization._
+:octocat: _Community health files for the @FullAmigo organization._
