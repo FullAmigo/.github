@@ -6,18 +6,32 @@
   ],
   "assigneesFromCodeOwners": true,
   "configMigration": true,
-  "labels": ["Type: dependencies"],
+  "labels": [
+    "Type: dependencies"
+  ],
   "prHourlyLimit": 0,
   "prConcurrentLimit": 5,
   "branchConcurrentLimit": 5,
   "reviewersFromCodeOwners": true,
-  "schedule": ["after 10pm and before 4am every weekday", "every weekend"],
-  "automergeSchedule": ["after 10pm and before 5am every weekday", "every weekend"],
+  "schedule": [
+    "after 10pm every weekday",
+    "every weekend",
+    "before 4am every weekday"
+  ],
+  "automergeSchedule": [
+    "after 10pm and before 5am every weekday",
+    "every weekend"
+  ],
   "platformAutomerge": true,
   "packageRules": [
     {
       "description": "Automerge non-major updates",
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
       "automerge": true
     }
   ]
